@@ -1,0 +1,123 @@
+pp {
+	  max-width: 800px;
+	    margin: 0 auto;
+	      padding: 20px;
+	        font-family: Arial, sans-serif;
+		  text-align: center;
+	  }
+
+	  .input-container {
+		    display: flex;
+		      justify-content: center;
+		        gap: 20px;
+			  margin-bottom: 30px;
+		  }
+
+		  .input-box {
+			    padding: 10px 15px;
+			      font-size: 16px;
+			        border: 1px solid #ccc;
+				  border-radius: 4px;
+				    width: 200px;
+			    }
+
+			    .calendar-container {
+				      margin-bottom: 30px;
+			      }
+
+			      .calendar-header {
+				        display: flex;
+					  justify-content: space-between;
+					    align-items: center;
+					      margin-bottom: 15px;
+				      }
+
+				      .calendar-header button {
+					        background: none;
+						  border: 1px solid #ccc;
+						    padding: 5px 15px;
+						      cursor: pointer;
+						        border-radius: 4px;
+						}
+
+						.calendar-grid {
+							  display: grid;
+							    grid-template-columns: repeat(7, 1fr);
+							      gap: 8px;
+						      }
+
+						      .calendar-day-header {
+							        font-weight: bold;
+								  padding: 10px;
+								    background-color: #f0f0f0;
+							    }
+
+							    .calendar-day {
+								      padding: 10px;
+								        border: 1px solid #eee;
+									  cursor: pointer;
+									    transition: all 0.2s;
+								    }
+
+								    .calendar-day:hover {
+									      background-color: #f0f0f0;
+								      }
+
+								      .calendar-day.selected {
+									        background-color: #4CAF50;
+										  color: white;
+									  }
+
+									  .calendar-day.other-month {
+										    color: #aaa;
+										      background-color: #f9f9f9;
+									      }
+
+									      .time-picker {
+										        margin-top: 20px;
+											  padding: 20px;
+											    border: 1px solid #eee;
+											      border-radius: 8px;
+											        background-color: #f9f9f9;
+												  max-width: 400px;
+												    margin-left: auto;
+												      margin-right: auto;
+											      }
+
+											      .time-inputs {
+												        display: flex;
+													  justify-content: center;
+													    gap: 20px;
+													      margin: 20px 0;
+												      }
+
+												      .time-inputs div {
+													        display: flex;
+														  flex-direction: column;
+														    align-items: flex-start;
+													    }
+
+													    .time-inputs label {
+														      margin-bottom: 5px;
+														        font-weight: bold;
+														}
+
+														.time-inputs input {
+															  padding: 8px;
+															    border: 1px solid #ccc;
+															      border-radius: 4px;
+														      }
+
+														      .save-button {
+															        padding: 10px 20px;
+																  background-color: #4CAF50;
+																    color: white;
+																      border: none;
+																        border-radius: 4px;
+																	  cursor: pointer;
+																	    font-size: 16px;
+																    }
+
+																    .save-button:hover {
+																	      background-color: #45a049;
+																      }
